@@ -1,0 +1,28 @@
+
+/* Image section styles */
+#picture-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.container {
+  position: relative;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+  transition: .5s;
+}
+
+.overlay {
+  position: absolute;
+  opacity: 0;
+}
+
+img {
+  padding-right: 10px;
+}
+
+img:hover .title{
+/*   opacity: 1; */
+}
