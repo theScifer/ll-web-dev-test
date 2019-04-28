@@ -3,6 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <title>LL Web Dev Test</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,600i,700" rel="stylesheet">
+  <link rel="stylesheet" href="styles/normalize.css">
   <link rel="stylesheet" href="styles/styles.css">
   <script defer type="text/javascript" src="scripts/app.js"></script>
 </head>
@@ -10,10 +12,10 @@
   <header>
     <div class="navigation-wrapper">
       <div class="nav-logo">
-        <img src="./images/leaselabs_logo_fullstack_rgb.png" alt="LeaseLabs Logo">
+        <img src="img/leaselabs_logo_fullstack_rgb.png" alt="LeaseLabs Logo">
       </div>
-      <nav class="nav-links">
-        <ul>
+      <nav>
+        <ul class="nav-links">
           <li><a href="#">Home</a></li>
           <li><a href="#">Our Work</a></li>
           <li><a href="#">About Us</a></li>
@@ -24,43 +26,45 @@
     </div> <!-- End navigation wrapper -->
   </header>
   <!-- sidebar start -->
-  <div class="sidebar">
-    <div class="subnav-wrapper">
-      <div class="subnav-title">
-        Subnav
+  <div class="flex-grid">
+    <aside class="sidebar">
+      <div class="subnav-wrapper">
+        <div class="subnav-title">
+          Subnav
+        </div>
+        <ul class="subnav-links">
+          <li><a href="#">Link 1</a></li>
+          <li><a href="#">Link 2</a></li>
+          <li><a href="#">Link 3</a></li>
+        </ul>
+        <div class="subnav-title">
+          Related Links
+        </div>
+        <ul class="subnav-links">
+          <li><a href="#">Link 1</a></li>
+          <li><a href="#">Link 2</a></li>
+          <li><a href="#">Link 3</a></li>
+        </ul>
       </div>
-      <ul class="subnav-links">
-        <li><a href="#">Link 1</a></li>
-        <li><a href="#">Link 2</a></li>
-        <li><a href="#">Link 3</a></li>
-      </ul>
-      <div class="subnav-title">
-        Related Links
-      </div>
-      <ul class="subnav-links">
-        <li><a href="#">Link 1</a></li>
-        <li><a href="#">Link 2</a></li>
-        <li><a href="#">Link 3</a></li>
-      </ul>
-    </div>
-  </div>
-  <!-- main section start -->
-  <main>
-    <h1 class="heading1">Heading 1</h1>
-    <h2 class="heading2">Heading 2</h2>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci repellat qui beatae similique ex consequuntur, inventore laudantium error velit soluta minima, atque, voluptas aliquid in culpa. Quos perspiciatis pariatur optio debitis voluptas laudantium quae inventore tempora numquam mollitia voluptate, sit quaerat asperiores impedit, hic dolore commodi ea nisi molestias, deleniti.
-    </p>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere incidunt, aperiam, quaerat debitis voluptates tempore nam eaque accusantium pariatur odit dolore totam dicta quasi unde ex. Doloremque est sint maxime.
-    </p>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt a consequuntur, quos unde molestias error nemo rerum nulla labore dolore iste omnis ullam dolorem laudantium debitis! Quibusdam quae voluptates nihil et ad rem eaque adipisci, animi, voluptatibus temporibus facere dicta.
-    </p>
-    <!-- Image section start -->
-    <div id="picture-container">
+    </aside>
+    <!-- main section start -->
+    <main class="main-section">
+      <h1>Heading 1</h1>
+      <h2>Heading 2</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci repellat qui beatae similique ex consequuntur, inventore laudantium error velit soluta minima, atque, voluptas aliquid in culpa. Quos perspiciatis pariatur optio debitis voluptas laudantium quae inventore tempora numquam mollitia voluptate, sit quaerat asperiores impedit, hic dolore commodi ea nisi molestias, deleniti.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere incidunt, aperiam, quaerat debitis voluptates tempore nam eaque accusantium pariatur odit dolore totam dicta quasi unde ex. Doloremque est sint maxime.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt a consequuntur, quos unde molestias error nemo rerum nulla labore dolore iste omnis ullam dolorem laudantium debitis! Quibusdam quae voluptates nihil et ad rem eaque adipisci, animi, voluptatibus temporibus facere dicta.
+      </p>
+      <!-- Image section start -->
+      <div id="picture-container">
 
-    </div>
-  </main>
+      </div>
+    </main>
+  </div>
 </body>
 </html>
