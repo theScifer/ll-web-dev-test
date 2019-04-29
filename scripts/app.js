@@ -16,6 +16,8 @@ var images = {
 	}
 };
 
+// image display via loop
+
 var containerDiv = document.getElementById('picture-container');
 
 for (var key in images) {
@@ -40,3 +42,12 @@ var myImage = document.createElement('img');
   containerDiv.appendChild(imgContainer);
   imgContainer.appendChild(myImage);
 }
+
+// mobile nav functionality
+
+var mainNav = document.getElementById("js-menu");
+var navBarToggle = document.getElementById("js-navbar-toggle");
+
+navBarToggle.addEventListener("click", function() {
+  mainNav.classList.toggle("active");
+});
